@@ -1,24 +1,14 @@
 {
-  "name": "blog_website",
+  "name": "blog-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "blogwebsite": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dompurify": "^3.1.6",
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "jsdom": "^24.1.1",
-    "marked": "^14.0.0",
-    "method-override": "^3.0.0",
-    "mongoose": "^8.5.3",
-    "slugify": "^1.6.6"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "ejs": "^3.1.6",
+    "slugify": "^1.6.0"
   }
 }
