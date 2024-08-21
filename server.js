@@ -3,10 +3,7 @@ const articleRouter = require("./routes/articles");
 const Article = require("./models/article");
 const mongoose = require('mongoose');
 const methodOverride = require('method-override');
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+
 const app = express();
 
 mongoose.connect('mongodb://localhost/bharatInternDatabase');
